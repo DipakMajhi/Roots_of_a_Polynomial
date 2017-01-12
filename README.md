@@ -1,0 +1,2 @@
+# Roots_of_a_Polynomial
+This program uses Bairstow’s method to find the real and complex roots of a polyomial with real coefficients. There are several reasons for developing a routine based Bairstow’s method. It is sometimes the case that all of the roots of a polynomial with real coefficients are desired. Bairstow’s method provides an iterative process for finding both the real and complex roots using only real arithmetic.
