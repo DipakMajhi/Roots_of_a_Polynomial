@@ -1,2 +1,7 @@
 # Roots_of_a_Polynomial
+
 This program uses Bairstow’s method to find the real and complex roots of a polyomial with real coefficients. There are several reasons for developing a routine based Bairstow’s method. It is sometimes the case that all of the roots of a polynomial with real coefficients are desired. Bairstow’s method provides an iterative process for finding both the real and complex roots using only real arithmetic.
+
+Further, since it is based on Newton’s Method for a systemof two nonlinear equations in two unknowns, it has the rapid convergence property of Newton’s method for systems of equations. The major drawback of this method is that it sometimes fail to converge. This is because it is difficult to find an initial starting guess which satisfies the strict conditions necessary to assure convergence. When these conditions are not satisfied, the sequence of approximations may jump away from the desired roots or may iterate away from the roots indefinitely. 
+
+The program obtains an initial approximation to two roots of the polynomial and uses these two roots to estimate initial starting values of the Bairstow interaction. These values are the coefficients r and s of an approximate quadratic factor x^2 + rx + s, of the given polynomial. The given polynomial will go through synthetic division by the quadratic function which will eventually give all the real or complex or both in pairs depending upon the degree of the polynomial.
